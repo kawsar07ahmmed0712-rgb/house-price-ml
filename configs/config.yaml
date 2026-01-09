@@ -11,3 +11,22 @@ data:
 
 training:
   test_size: 0.2
+
+
+data:
+  dataset_name: california_housing
+  raw_filename: california_housing_raw.csv
+
+
+data:
+  dataset_name: california_housing
+  raw_filename: california_housing_raw.csv
+  target_column: MedHouseVal
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+processed:
+  train_filename: train.csv
+  test_filename: test.csv
