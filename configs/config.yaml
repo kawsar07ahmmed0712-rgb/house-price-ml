@@ -30,3 +30,22 @@ training:
 processed:
   train_filename: train.csv
   test_filename: test.csv
+
+
+
+training:
+  test_size: 0.2
+  random_state: 42
+  model_type: ridge
+  ridge_alpha: 1.0
+
+artifacts:
+  model_filename: model_pipeline.joblib
+  metrics_filename: metrics.json
+
+
+artifacts:
+  model_filename: model_pipeline.joblib
+  metrics_filename: metrics.json
+  sample_request_filename: sample_request.json
+  sample_response_filename: sample_response.json
