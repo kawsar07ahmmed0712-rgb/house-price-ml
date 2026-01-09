@@ -1,0 +1,13 @@
+project:
+  seed: 42
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  artifacts_dir: artifacts
+
+data:
+  dataset_name: california_housing
+
+training:
+  test_size: 0.2
